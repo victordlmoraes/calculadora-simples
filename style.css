@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: JetBrains Mono;
+}
+
+body {
+    background-color: rgb(32, 28, 28);
+    color: rgb(211, 204, 204);
+}
+
+header {
+    text-align: center;
+    font-size: 27px;
+    margin: 20px 2%;
+}
+
+.main {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main form .textview {
+    padding-left: 5px;
+    width: 240px;
+    height: 60px;
+    font-size: 30px;
+    border: none;
+    background-color: black;
+    color: rgb(211, 204, 204);
+    border: 1px solid white;
+    border-bottom: none;
+}
+
+.main form .textview:focus {
+    outline: none;
+}
+
+.main table {
+    border-collapse: collapse;
+}
+
+.main table tr td input {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.main table tr td input:focus {
+    outline: none;
+}
+
+
+@media screen and (max-width: 640px) {
+    header {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        font-size: 20px;
+    }
+}
