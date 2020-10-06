@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Simples</h1>
+    </header>
+
+    <div class="main">
+        <form name="form">
+            <input type="text" id="textview" class="textview" name="textview" readonly>
+        </form><!--form-->
+        
+        <table>
+            <tr>
+                <td><input style="background-color: rgb(112, 17, 17);" type="button" value="C" onclick="cleanTextview()"></td>
+                <td><input type="button" value="del" onclick="eraseCalc()"></td>
+                <td><input type="button" value="/" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="*" onclick="buttonDigit(value)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="8" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="9" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="+" onclick="buttonDigit(value)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="5" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="6" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="-" onclick="buttonDigit(value)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="2" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="3" onclick="buttonDigit(value)"></td>
+                <td rowspan="2"><input style="height: 120px; background-color: rgb(177, 72, 11);" type="button" value="=" onclick="resolveCalc()"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input style="width: 120px;" type="button" value="0" onclick="buttonDigit(value)"></td>
+                <td><input type="button" value="." onclick="buttonDigit(value)"></td>
+            </tr>        
+        </table>
+    </div><!--main-->
+
+    <script src="calc.js"></script>
+</body>
+</html>
