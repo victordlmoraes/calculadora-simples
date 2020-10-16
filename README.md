@@ -31,12 +31,12 @@ A calculadora é capaz de realizar as quatro operações matemáticas básicas (
 Pegaremos como exemplo os aparelhos Moto G4 e Galaxy Fold:
 
 #### Moto G4
-<p
+<p align="center">
   <img src="images/mobile/moto_g4_1.png" width="300" /> <img src="images/mobile/moto_g4_2.png" width="300" />
 </p>
 
 #### Galaxy Fold
-<p
+<p align="center">
   <img src="images/mobile/galaxy_fold_1.png" width="300" /> <img src="images/mobile/galaxy_fold_2.png" width="300" />
 </p>
 
