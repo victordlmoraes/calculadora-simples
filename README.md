@@ -1,6 +1,6 @@
 # Calculadora Simples
 
-Mini projeto de uma calculadora que realiza operações matemáticas básicas. Projeto feito utilizando HTML5, CSS3 e Javascript.
+Mini projeto de uma calculadora que realiza operações matemáticas básicas. Projeto feito utilizando HTML5, CSS3 e Javascript. Teste o projeto clicando [aqui](https://victordlmoraes.github.io/calculadora-simples/).
 
 <a name="ancora"></a>
 ## Guia
